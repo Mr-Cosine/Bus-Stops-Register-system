@@ -1,0 +1,2360 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/cc.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/cc.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/cc"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/cl.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/cl.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/cl"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/bcc.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/bcc.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/bcc"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/xlc.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/xlc.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/xlc"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/icx.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/icx.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/icx"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/clang.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/clang.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/clang"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cl.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cl.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cl"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/bcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/bcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/bcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/xlc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/xlc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/xlc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/icx.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/icx.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/icx"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cl.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cl.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cl"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bcc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bcc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/xlc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/xlc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/xlc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/icx.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/icx.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/icx"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/clang.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/clang.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/clang"
+      - "C:/Program Files/dotnet/cc.com"
+      - "C:/Program Files/dotnet/cc.exe"
+      - "C:/Program Files/dotnet/cc"
+      - "C:/Program Files/dotnet/gcc.com"
+      - "C:/Program Files/dotnet/gcc.exe"
+      - "C:/Program Files/dotnet/gcc"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Program Files/dotnet/bcc.com"
+      - "C:/Program Files/dotnet/bcc.exe"
+      - "C:/Program Files/dotnet/bcc"
+      - "C:/Program Files/dotnet/xlc.com"
+      - "C:/Program Files/dotnet/xlc.exe"
+      - "C:/Program Files/dotnet/xlc"
+      - "C:/Program Files/dotnet/icx.com"
+      - "C:/Program Files/dotnet/icx.exe"
+      - "C:/Program Files/dotnet/icx"
+      - "C:/Program Files/dotnet/clang.com"
+      - "C:/Program Files/dotnet/clang.exe"
+      - "C:/Program Files/dotnet/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/cc.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/cc.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/cc"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/bcc.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/bcc.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/bcc"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/xlc.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/xlc.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/xlc"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/icx.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/icx.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/icx"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/clang.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/clang.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/clang"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/cc.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/cc.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/cc"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ar.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ranlib.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/strip.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ld.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/nm.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/objdump.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/objcopy.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/readelf.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/dlltool.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/addr2line.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/tapi.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/tapi.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/tapi"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/tapi.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/tapi.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/tapi.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/tapi.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.1"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.1.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.1.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "C:/Program Files/Git/cmd/gcc-ar13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.1"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.1.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.1.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/c++.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/c++.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/c++"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/g++.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/g++.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.1"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.1.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.1.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar-13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ar13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "C:/Program Files/Git/cmd/gcc-ar13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ar13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.1"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.1.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.1.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.1.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.1"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib-13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib-13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib13"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib13.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib13.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/gcc-ranlib13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib13.com"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib13.exe"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/gcc-ranlib13"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/bin/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/sbin/"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/Vibe_Coding/bin/"
+      - "C:/Program Files (x86)/Vibe_Coding/sbin/"
+      - "C:/Program Files (x86)/Vibe_Coding/"
+    searched_directories:
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/windres.com"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/windres.exe"
+      - "D:/Coding projects/Vibe Coding/.venv/Scripts/windres"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/windres.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/windres.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/windres.com"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/windres.exe"
+      - "C:/Users/Jiaqi/AppData/Local/Microsoft/WindowsApps/windres"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/windres.com"
+    found: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Coding projects\\Vibe Coding\\.venv\\Scripts"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Jiaqi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin"
+        - "D:\\C++ relevant\\CLion 2025.3.2\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Vibe_Coding"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/Vibe_Coding"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6chcde"
+      binary: "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6chcde"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6chcde'
+        
+        Run Build Command(s): "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_03359
+        [1/2] "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj -c "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03359.dir/'
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03359.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccrNHJHZ.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03359.dir/'
+         as -v -o CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccrNHJHZ.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe"  -v -Wl,-v CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj -o cmTC_03359.exe -Wl,--out-implib,libcmTC_03359.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/C++\\ relevant/CLion\\ 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03359.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_03359.'
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_03359.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03359.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_03359.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03359.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03359.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_03359.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/include]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/C++ relevant/CLion 2025.3.2/bin/mingw/include;D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/C++ relevant/CLion 2025.3.2/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6chcde']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_03359]
+        ignore line: [[1/2] "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj -c "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03359.dir/']
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03359.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccrNHJHZ.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03359.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccrNHJHZ.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe"  -v -Wl -v CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj -o cmTC_03359.exe -Wl --out-implib libcmTC_03359.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/C++\\ relevant/CLion\\ 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03359.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_03359.']
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_03359.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03359.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_03359.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_03359.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_03359.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.40]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03359.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_03359.'\x0d]
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98v8no"
+      binary: "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98v8no"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98v8no'
+        
+        Run Build Command(s): "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_df69f
+        [1/2] "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_df69f.dir/'
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_df69f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccqQEUVk.s
+        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_df69f.dir/'
+         as -v -o CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccqQEUVk.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe"  -v -Wl,-v CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_df69f.exe -Wl,--out-implib,libcmTC_df69f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/C++\\ relevant/CLion\\ 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df69f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_df69f.'
+         D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_df69f.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_df69f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_df69f.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_df69f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df69f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_df69f.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/include]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [D:/C++ relevant/CLion 2025.3.2/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/C++ relevant/CLion 2025.3.2/bin/mingw/include;D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/C++ relevant/CLion 2025.3.2/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98v8no']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/C++ relevant/CLion 2025.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_df69f]
+        ignore line: [[1/2] "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_df69f.dir/']
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_df69f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccqQEUVk.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/C++ relevant/CLion 2025.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_df69f.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Jiaqi\\AppData\\Local\\Temp\\ccqQEUVk.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe"  -v -Wl -v CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_df69f.exe -Wl --out-implib libcmTC_df69f.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/C++\\ relevant/CLion\\ 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df69f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_df69f.']
+        ignore line: [ D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_df69f.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_df69f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_df69f.exe D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_df69f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_df69f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.40\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df69f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_df69f.'\x0d]
+        ignore line: []
+        ignore line: []
+        linker tool for 'CXX': D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/C++ relevant/CLion 2025.3.2/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/C++ relevant/CLion 2025.3.2/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+...

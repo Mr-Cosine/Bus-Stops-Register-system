@@ -1,0 +1,3 @@
+D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/Vibe_Coding.dir
+D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir

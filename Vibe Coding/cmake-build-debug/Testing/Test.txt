@@ -1,0 +1,7 @@
+13
+The Boardwalk Station/ 43.4357633 80.5607847
+Columbia / Fischer-Hallman/ 43.4672158 80.5659844
+Fischer-Hallman / Gatestone/ 43.4705164 80.5688522
+Fischer-Hallman / Path to Laurel Gate/ 43.4725069 80.5709972
+Laurelwood / Bearinger/ 43.4748942 80.5727833
+Laurelwood / Beaver Creek Rd./ 43.4724567 80.5789192

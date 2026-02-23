@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/Coding projects/Vibe Coding/cmake-build-debug",
+  "command": "\"D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe\" -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles\\Vibe_Coding.dir\\BusStopManager.cpp.obj -c \"D:\\Coding projects\\Vibe Coding\\BusStopManager.cpp\"",
+  "file": "D:/Coding projects/Vibe Coding/BusStopManager.cpp",
+  "output": "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/Vibe_Coding.dir/BusStopManager.cpp.obj"
+},
+{
+  "directory": "D:/Coding projects/Vibe Coding/cmake-build-debug",
+  "command": "\"D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe\" -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles\\Vibe_Coding.dir\\backend\\System.cpp.obj -c \"D:\\Coding projects\\Vibe Coding\\backend\\System.cpp\"",
+  "file": "D:/Coding projects/Vibe Coding/backend/System.cpp",
+  "output": "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/Vibe_Coding.dir/backend/System.cpp.obj"
+},
+{
+  "directory": "D:/Coding projects/Vibe Coding/cmake-build-debug",
+  "command": "\"D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe\" -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles\\Vibe_Coding.dir\\backend\\Bus.cpp.obj -c \"D:\\Coding projects\\Vibe Coding\\backend\\Bus.cpp\"",
+  "file": "D:/Coding projects/Vibe Coding/backend/Bus.cpp",
+  "output": "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/Vibe_Coding.dir/backend/Bus.cpp.obj"
+},
+{
+  "directory": "D:/Coding projects/Vibe Coding/cmake-build-debug",
+  "command": "\"D:\\C++ relevant\\CLion 2025.3.2\\bin\\mingw\\bin\\g++.exe\" -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles\\Vibe_Coding.dir\\backend\\Passengers.cpp.obj -c \"D:\\Coding projects\\Vibe Coding\\backend\\Passengers.cpp\"",
+  "file": "D:/Coding projects/Vibe Coding/backend/Passengers.cpp",
+  "output": "D:/Coding projects/Vibe Coding/cmake-build-debug/CMakeFiles/Vibe_Coding.dir/backend/Passengers.cpp.obj"
+}
+]
